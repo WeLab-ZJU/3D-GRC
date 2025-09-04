@@ -2,6 +2,8 @@
 
 Welcome to 3D-GRC! This repository is aimed at helping researchers or developers interested in 3D-GRC to quickly understand and reproduce our latest research.
 
+## Scheme
+<img src="" width="80%"/>
 # Quickstart
 ## System requirements
 - Ubuntu Linux (22.04.1 LTS)
