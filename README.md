@@ -32,3 +32,6 @@ cp build/lib.linux-x86_64-cpython-311/CUDA_kernal_3dgrc.cpython-311-x86_64-linux
 cd GRC
 python GRC.py -c config/default.yaml -g 0
 ```
+## Contact
+If you need any help about 3D-GRC,please feel free to contact us.
+1514288815@qq.com
