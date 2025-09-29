@@ -1,0 +1,21 @@
+data:
+  path: 'data/vessel.tif'
+  background: 0
+  Max: 255
+  denoise: 0
+  output_dirname: 'Output/vessel'
+  compress_method: 'BLOSC_8_shuffle_zlib'
+paras:
+  init_step: 8
+  loss_aim: 1e-10
+  lr_init: 1e-2
+  lr_final: 1e-4
+  iternum: 100000
+  thredhold: 1e-9
+  prune_step: 500
+  distance_scale: 2
+  prune_threhold: 1
+  prune_start_loss: 1.0e-3           
+  every_n: 1
+  
+
