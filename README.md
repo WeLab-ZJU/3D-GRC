@@ -3,7 +3,7 @@
 Welcome to 3D-GRC! This repository is aimed at helping researchers or developers interested in 3D-GRC to quickly understand and reproduce our latest research.
 
 ## Scheme
-<img src="docs/Fig 1.tif" width="80%"/>
+<img src="docs/Fig 1.png" width="80%"/>
 
 
 # Quickstart
