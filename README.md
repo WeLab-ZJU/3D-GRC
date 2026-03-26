@@ -17,7 +17,7 @@ Welcome to 3D-GRC! This repository is aimed at helping researchers or developers
 
 ### 1. Download project
 ```
-git clone git@github.com:/xhb1514288815/3D-GRC.git
+git clone git@github.com:/WeLab-ZJU/3D-GRC.git
 ```
 ### 2. Prepare the enviroments
 ```
@@ -42,4 +42,4 @@ python GRC.py -c config/default.yaml -g 0
 You can also write you own .yaml file to compress other data. 
 ## Contact
 If you need any help about 3D-GRC,please feel free to contact us.
-1514288815@qq.com
+haibo.xu@zju.edu.cn
