@@ -6,11 +6,11 @@ data:
   output_dirname: 'Output/vessel'
   compress_method: 'BLOSC_8_shuffle_zlib'
 paras:
-  init_step: 8
+  init_step: 12
   loss_aim: 1e-10
   lr_init: 1e-2
   lr_final: 1e-4
-  iternum: 100000
+  iternum: 10000
   thredhold: 1e-9
   prune_step: 500
   distance_scale: 2
