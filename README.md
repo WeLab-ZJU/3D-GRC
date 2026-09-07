@@ -35,9 +35,16 @@ cp build/lib.linux-x86_64-cpython-311/CUDA_kernal_3dgrc.cpython-311-x86_64-linux
 ```
 If you are running this project on Windows, you can copy the complied file from the build folder to the main folder
 ## Usage
+For a small volume, run the GRC.py to compress:
 ```
 cd GRC
 python GRC.py -c config/default.yaml -g 0
+```
+
+For a large volume, run the GRC_split.py to compress:
+```
+cd GRC
+python GRC_split.py -c config/default_split.yaml -g 0
 ```
 You can also write you own .yaml file to compress other data. 
 ## Contact
