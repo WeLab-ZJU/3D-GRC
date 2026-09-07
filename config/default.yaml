@@ -1,21 +1,18 @@
 data:
-  path: 'data/vessel.tif'
-  background: 0
-  Max: 255
-  denoise: 0
-  output_dirname: 'Output/vessel'
-  compress_method: 'BLOSC_8_shuffle_zlib'
+  path: 'data/noisy_vessel/vessel.tif'            # the file path for compression
+  background: 0                                   # optional background intensity value used to remove empty regions before compression
+  Max: 255                                        # set according to the data bit depth: uint 16 → 65535; uint 8 → 255
+  output_dirname: 'Output/vessel'                 # output folder
+  compress_method: 'BLOSC_8_shuffle_zlib'         # lossless coding method in hdf5plugin
 paras:
-  init_step: 12
-  loss_aim: 1e-10
-  lr_init: 1e-2
-  lr_final: 1e-4
-  iternum: 10000
-  thredhold: 1e-9
-  prune_step: 500
-  distance_scale: 2
-  prune_threhold: 1
-  prune_start_loss: 1.0e-3           
-  every_n: 1
-  
-
+  init_step: 12                                   # initial step d, larger d leads to larger compression ratio
+  loss_aim: 1e-10                                 # not used
+  lr_init: 1e-2                                   # the initial learning rate
+  lr_final: 1e-4                                  # the final learning rate
+  iternum: 10000                                  # total number for optimization iterations
+  thredhold: 1e-9                                 # default: 1
+  prune_step: 500                                 # periods for RDC
+  distance_scale: 2                               # default: 2
+  prune_threhold: 1                               # Gaussians with intensity below this setting is removed in RDC
+  prune_start_loss: 1.0e-3                        # RDC begin perform with loss below this setting
+  every_n: 1                                      # default: 1
