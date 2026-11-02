@@ -29,9 +29,9 @@ pip3 install -r requirements.txt
 
 ### Compile the Cuda kernal
 ```
-cd Cuda_kernal
+cd Cuda_kernel
 python compile.py install
-cp build/lib.linux-x86_64-cpython-311/CUDA_kernal_3dgrc.cpython-311-x86_64-linux-gnu.so GRC/
+cp build/lib.linux-x86_64-cpython-311/CUDA_kernel_3dgrc.cpython-311-x86_64-linux-gnu.so GRC/
 ```
 If you are running this project on Windows, you can copy the complied file from the build folder to the main folder
 ## Usage
